@@ -1,30 +1,64 @@
 <template>
-  <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
-    <div class="flex justify-center md:justify-end -mt-16">
-      <img
-        class="w-20 h-20 object-cover rounded-full border-2 border-indigo-500"
-        src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"
-      />
-    </div>
-    <div>
-      <h2 class="text-gray-800 text-3xl font-semibold">{{ page.title }}</h2>
-      <p class="mt-2 text-gray-600">
-        <nuxt-content :document="page" />
-      </p>
-    </div>
-    <div class="flex justify-end mt-4">
-      <a href="#" class="text-xl font-medium text-indigo-500">{{ page.author }}</a>
-    </div>
+  <div>
+    <Landing />
+    <section class="bg-white">
+      <div class="max-w-5xl px-6 py-16 mx-auto">
+        <div class="items-center md:flex md:space-x-6">
+          <div class="md:w-1/2">
+            <h3 class="text-2xl font-semibold text-gray-800">{{ featured.title }}</h3>
+            <p class="max-w-md mt-4 text-gray-600">
+              <nuxt-content :document="featured" />
+            </p>
+          </div>
+          <div class="mt-8 md:mt-0 md:w-1/2">
+            <div class="flex items-center justify-center">
+              <div class="max-w-md">
+                <img
+                  class="object-cover object-center w-full rounded-md shadow"
+                  style="height: 500px"
+                  src="https://images.unsplash.com/photo-1618346136472-090de27fe8b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=673&q=80"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white">
+      <div class="max-w-5xl px-6 py-16 mx-auto">
+        <div class="items-center md:flex md:space-x-6">
+          <div class="md:w-1/2">
+            <div class="flex items-center justify-center">
+              <div class="max-w-md">
+                <img
+                  class="object-cover object-center w-full rounded-md shadow"
+                  style="height: 500px"
+                  src="https://images.unsplash.com/photo-1616874535244-73aea5daadb9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="mt-8 md:mt-0 md:w-1/2">
+            <h3 class="text-2xl font-semibold text-gray-800">{{ popular.title }}</h3>
+            <p class="max-w-md mt-4 text-gray-600">
+              <nuxt-content :document="popular" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
 <script lang="ts">
 export default {
   async asyncData({ $content }: any) {
-    const page = await $content('hello').fetch()
-
+    const featured = await $content('featured').fetch()
+    const popular = await $content('most-popular').fetch()
     return {
-      page,
+      featured,
+      popular,
     }
   },
 }
