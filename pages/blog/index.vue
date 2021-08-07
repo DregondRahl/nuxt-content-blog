@@ -14,7 +14,7 @@
             {{ article.title }}
           </nuxt-link>
           <p class="mt-2 text-gray-600">
-            <nuxt-content :document="article" />
+            {{ article.description }}
           </p>
         </div>
       </div>

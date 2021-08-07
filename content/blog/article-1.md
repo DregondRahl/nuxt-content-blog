@@ -1,10 +1,17 @@
 ---
-title: 'Static Site Generation #1'
-description: 'Lets Build a static site'
+title: 'Static Site Generation - Nuxt'
+description: 'Lets build a static site with NuxtJS'
 author: Niranjith Perumal
-slug: article-1
 ---
 
 **Nuxt vs Next**
 
-Next. js is a minimalistic framework for server-rendered React applications. On the other hand, **Nuxt** is detailed as "The Vuejs for SSR, SPA, Static Generated, PWA and more.."
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam malesuada diam sit amet nibh posuere maximus. Maecenas vel ultricies elit, eu semper leo. Cras vel ipsum sapien. Mauris eu justo feugiat, venenatis lectus nec, gravida odio. In hac habitasse platea dictumst. Praesent at tellus sagittis, euismod velit ut, lobortis sapien. Nullam dolor diam, dapibus id eros et, tincidunt rutrum ante.
+
+Fusce ac nisi et lectus posuere molestie eget et magna. Nunc condimentum elit ac urna semper, faucibus imperdiet tortor mollis. Sed quis sollicitudin nibh. Etiam at tortor molestie, consectetur sem eu, semper neque. In sed consequat magna. Vivamus efficitur cursus ultricies. Maecenas tincidunt mauris eu orci efficitur tristique. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc tincidunt mauris eu odio tristique, eu porta augue fringilla. Mauris placerat suscipit nisl. Pellentesque iaculis vitae felis eget pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis vestibulum quam. Vivamus pretium, sapien fermentum dignissim pellentesque, eros urna posuere arcu, in gravida leo orci sed lacus.
+
+Curabitur egestas nisi at ligula tempus, et hendrerit leo auctor. Donec tempus dolor neque, ac blandit libero ultricies non. Nulla facilisi. Nunc rutrum lorem vitae ex commodo, in mollis nunc efficitur. Curabitur faucibus tellus vel augue cursus porta. Suspendisse et ante eu dui cursus finibus at nec magna. Curabitur aliquam, velit at mollis hendrerit, magna arcu finibus lacus, sed ornare felis odio eu mauris. Pellentesque vel urna lobortis ante accumsan tempus vitae in nisl. Aenean ultrices sapien ex, quis dignissim elit laoreet nec. Vivamus mattis diam et nunc tincidunt venenatis.
+
+Aenean nunc metus, luctus non suscipit et, ultrices et sapien. Sed sed porta lacus, ut fermentum massa. Sed diam metus, egestas luctus nunc eu, sodales facilisis ante. Aliquam ligula quam, rhoncus a mauris non, mollis tincidunt odio. Sed sodales sodales est, sit amet finibus massa porttitor sed. Cras facilisis sed nulla quis ornare. Phasellus a semper magna. Proin semper, lectus in imperdiet auctor, sapien dui egestas diam, in aliquet enim urna vitae nisi. Vestibulum convallis, metus ac congue tempor, dolor neque convallis diam, vitae auctor enim urna vitae sem. Morbi non auctor sapien. Cras cursus enim diam, a gravida ante consequat nec. Ut et ipsum in est egestas sollicitudin. Quisque id libero in neque fermentum viverra. Donec suscipit lorem a dignissim mattis. Mauris a fringilla ex. Sed non elit pulvinar, volutpat orci quis, dapibus tortor.
+
+In aliquam, sapien vitae imperdiet tincidunt, mi libero varius libero, id sollicitudin odio nulla eget sapien. Proin arcu est, lacinia vitae massa eu, tempus hendrerit leo. Vivamus nec luctus justo. Duis vitae mollis lorem, at luctus odio. Nunc massa magna, facilisis in eleifend at, porta vel metus. Curabitur aliquet dapibus vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. In tempus consequat tellus, feugiat efficitur massa faucibus sit amet. Fusce quis elit lacinia, sagittis dui eget, posuere nunc. Aenean dictum erat odio, et aliquam mi scelerisque ac. Aliquam pellentesque turpis vel ultrices lacinia. Suspendisse a dignissim odio. Donec dignissim urna ex, nec dignissim tortor vestibulum quis. Curabitur in odio est. Pellentesque ac iaculis tellus. 

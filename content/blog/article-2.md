@@ -1,8 +1,7 @@
 ---
-title: 'Static Site Generation #2'
-description: 'Lets Build a static site'
+title: 'Static Site Generation - Deploy'
+description: 'Lets deploy a static site with Vercel'
 author: Niranjith Perumal
-slug: article-2
 ---
 
 Using the power of **Nuxtjs** and **Vercel** to build and deploy Static websites.
