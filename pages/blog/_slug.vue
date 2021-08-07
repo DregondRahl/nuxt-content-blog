@@ -21,7 +21,7 @@
 
 <script lang="ts">
 export default {
-  async fetch({ $content, params }: any) {
+  async asyncData({ $content, params }: any) {
     const article = await $content('blog', params.slug).fetch()
     return {
       article,
