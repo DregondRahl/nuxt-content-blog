@@ -5,9 +5,9 @@
       <div class="max-w-5xl px-6 py-16 mx-auto">
         <div class="items-center md:flex md:space-x-6">
           <div class="md:w-1/2">
-            <h3 class="text-2xl font-semibold text-gray-800">About</h3>
+            <h3 class="text-2xl font-semibold text-gray-800">{{ movie.title }}</h3>
             <p class="max-w-md mt-4 text-gray-600">
-              <nuxt-content :document="about" />
+              {{ movie.opening_crawl }}
             </p>
           </div>
           <div class="mt-8 md:mt-0 md:w-1/2">
@@ -29,11 +29,11 @@
 
 <script lang="ts">
 export default {
-  async asyncData({ $content }: any) {
-    const about = await $content('about').fetch()
+  async asyncData() {
+    const movie = await fetch('https://swapi.dev/api/films/1').then(res => res.json())
 
     return {
-      about,
+      movie,
     }
   },
 }
